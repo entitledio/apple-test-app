@@ -4,7 +4,7 @@ import StoreKit
 class SubscriptionService: NSObject {
     
     static let iapLoadedNotification = Notification.Name("SubscriptionServiceIAPLoadedNotification")
-    static let purchaseSuccessfulNotification = Notification.Name("SubscriptionServiceRestoreSuccessfulNotification")
+    static let purchaseSuccessfulNotification = Notification.Name("purchaseSuccessfulNotification")
     
     static let shared = SubscriptionService()
     
